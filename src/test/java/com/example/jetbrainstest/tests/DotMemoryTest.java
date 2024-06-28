@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DotMemoryTest extends BaseTest {
 
-
     private DotMemoryPage DotMemoryPage;
 
     @BeforeEach
@@ -23,6 +22,6 @@ public class DotMemoryTest extends BaseTest {
     @Test
     @DisplayName("Проверка, что кнопка скачивания активна")
     public void buttonCheck() {
-        assertTrue(DotMemoryPage.checkIfDownloadButtonIsClickable(), "Кнопка скачивания не активна");
+        assertTrue(DotMemoryPage.checkDownloadButton(), "Кнопка скачивания не активна");
     }
 }
