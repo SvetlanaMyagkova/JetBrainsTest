@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
-
 public class BaseTest {
     private static WebDriver driver;
     protected final AllureLogger LOG;
